@@ -1,3 +1,10 @@
-/**
- * Created by alainlavoie on 9/14/16.
- */
+'use strict';
+let chai = require('chai');
+let mocha = require('mocha');
+
+describe('My Test', function() {
+    it("done", function(done){
+        console.log("Test done.");
+        done();
+    })
+});
